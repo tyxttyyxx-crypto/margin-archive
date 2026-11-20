@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f4f1e9" />
+  <meta name="description" content="A personal archive of photographs, journal entries, and ideas in progress." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+  <title>margin. — a personal archive</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header" id="header">
+      <a class="brand" href="#/" aria-label="Home"><span class="brand-symbol">✳</span><span id="brand-name">margin.</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#/photography" data-nav="photography">Photography<span class="nav-numeral">01</span></a>
+        <a href="#/journal" data-nav="journal">Journal<span class="nav-numeral">02</span></a>
+        <a href="#/garden" data-nav="garden">Digital garden<span class="nav-numeral">03</span></a>
+      </nav>
+      <a href="#/about" class="about-link" data-nav="about">About <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="main" tabindex="-1" aria-live="polite"></main>
+    <footer class="site-footer">
+      <div><a href="#/" class="footer-wordmark" id="footer-wordmark">margin.</a><p>an ongoing collection<br/>of things worth returning to.</p></div>
+      <div class="footer-right"><span>Made to remain unfinished.</span><span id="footer-year"></span><a href="#/about">Colophon ↗</a></div>
+    </footer>
+  </div>
+  <dialog id="lightbox" class="lightbox" aria-label="Photograph viewer"></dialog>
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
